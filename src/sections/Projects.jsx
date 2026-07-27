@@ -12,12 +12,20 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// const FitMapImages = [
+//     "/projects/fitmap/FitMap1.png",
+//     "/projects/fitmap/FitMap2.png",
+//     "/projects/fitmap/FitMap3.png",
+//     "/projects/fitmap/FitMap4.png",
+//     "/projects/fitmap/FitMap5.png",
+// ];
+
 const FitMapImages = [
-    "/projects/fitmap/FitMap1.png",
-    "/projects/fitmap/FitMap2.png",
-    "/projects/fitmap/FitMap3.png",
-    "/projects/fitmap/FitMap4.png",
-    "/projects/fitmap/FitMap5.png",
+    `${import.meta.env.BASE_URL}projects/fitmap/FitMap1.png`,
+    `${import.meta.env.BASE_URL}projects/fitmap/FitMap2.png`,
+    `${import.meta.env.BASE_URL}projects/fitmap/FitMap3.png`,
+    `${import.meta.env.BASE_URL}projects/fitmap/FitMap4.png`,
+    `${import.meta.env.BASE_URL}projects/fitmap/FitMap5.png`,
 ];
 
 const Projects = () => {
@@ -258,8 +266,7 @@ const Projects = () => {
                             <div className="flex items-center justify-center overflow-hidden bg-gray-100 p-6 dark:bg-gray-800">
 
                                 <img
-                                    src="/projects/developer-dashboard/dashboard.png"
-                                    alt="Developer Dashboard project preview"
+                                    src={`${import.meta.env.BASE_URL}projects/developer-dashboard/dashboard.png`} alt="Developer Dashboard project preview"
                                     className="w-full rounded-2xl shadow-md transition-transform duration-500 hover:scale-[1.02]"
                                 />
 
@@ -445,7 +452,8 @@ const Projects = () => {
 
                         {/* Video */}
                         <video
-                            src="/projects/fitmap/fitMap.mp4"
+                            // src="/projects/fitmap/fitMap.mp4"
+                            src={`${import.meta.env.BASE_URL}/projects/fitmap/fitMap.mp4`}
                             controls
                             autoPlay
                             className="w-full"

@@ -169,7 +169,8 @@ const Experience = () => {
               </p>
 
               <a
-                href="/resume.pdf"
+                // href="/resume.pdf"
+                 href={`${import.meta.env.BASE_URL}resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center rounded-lg bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-lg hover:shadow-indigo-500/25"

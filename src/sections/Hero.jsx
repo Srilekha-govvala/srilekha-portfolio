@@ -91,7 +91,8 @@ const Hero = () => {
                         </a>
 
                         <a
-                            href="/resume.pdf"
+                            // href="/resume.pdf"
+                             href={`${import.meta.env.BASE_URL}resume.pdf`}
                             download
                             className="inline-flex items-center gap-2 rounded-lg border border-gray-300 px-6 py-3 font-medium text-gray-700 transition-all duration-300 hover:-translate-y-1 hover:border-indigo-500 hover:text-indigo-500 dark:border-gray-700 dark:text-gray-200 dark:hover:border-indigo-400 dark:hover:text-indigo-400"
                         >
