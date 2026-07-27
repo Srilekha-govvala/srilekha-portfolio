@@ -4,7 +4,7 @@ A modern, responsive personal portfolio built with React.js and Tailwind CSS to 
 
 ## 🌐 Live Demo
 
-[View Portfolio](LIVE_DEMO_URL)
+[View Portfolio](https://srilekha-govvala.github.io/srilekha-portfolio/)
 
 ## ✨ Highlights
 
