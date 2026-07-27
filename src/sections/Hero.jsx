@@ -195,7 +195,7 @@ const Hero = () => {
                                 <p className="mt-2 font-medium text-gray-900 dark:text-white">
                                     ✨ Thoughtful interfaces
                                 </p>
-                                <div className="mt-5">
+                                {/* <div className="mt-5">
                                     <p className="text-sm text-gray-500 dark:text-gray-400">
                                         Let's connect
                                     </p>
@@ -206,7 +206,7 @@ const Hero = () => {
                                     >
                                         srilekhag441@gmail.com
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
